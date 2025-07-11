@@ -4,9 +4,9 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 # Load the models
-diabetes_path = "C:/Users/prudh/OneDrive/Desktop/Machine Learning/Projects/Diabetes_Prediction/diabetes_model.sav"
-heart_path = "C:/Users/prudh/OneDrive/Desktop/Machine Learning/Projects/Heart Disease Prediction/heart_disease_model.sav"
-parkison_path = "C:/Users/prudh/OneDrive/Desktop/Machine Learning/Projects/Parkison's Disease Prediction/parkisons_model.sav"
+diabetes_path = "diabetes_model.sav"
+heart_path = "heart_disease_model.sav"
+parkison_path = "parkisons_model.sav"
 
 with open(diabetes_path,'rb') as a:
     diabetes_model = pickle.load(a)
